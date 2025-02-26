@@ -1,2 +1,2 @@
-# Create a symlink for easy access as /dev/rplidar
-KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="1eba61dd845bed1194324ae81c62bc44", MODE:="0777", SYMLINK+="rplidar"
+# Create a symlink for easy access as /dev/sensors/rplidar
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="1eba61dd845bed1194324ae81c62bc44", MODE:="0777", SYMLINK+="sensors/rplidar"
